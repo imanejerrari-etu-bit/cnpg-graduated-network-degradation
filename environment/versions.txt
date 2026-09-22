@@ -1,0 +1,18 @@
+# Exact software versions used in the campaign
+#
+# TODO (author action required): these were not recoverable from the
+# archived logs during repository preparation. Please fill in from your
+# own deployment notes / shell history before archiving this repository
+# (e.g. via Zenodo) for citation. Suggested commands to retrieve them if
+# the original kind cluster is still available:
+#
+#   kind version
+#   kubectl version --short
+#   kubectl get cnpg -A -o jsonpath='{.items[0].spec.imageName}'
+#   kubectl exec -it <primary-pod> -- postgres --version
+
+kind: TODO
+kubernetes (kubectl/server): TODO
+CloudNativePG operator: >=1.28 (exact patch version: TODO, per paper Section 3.2)
+PostgreSQL: TODO
+OS / kernel of kind nodes: TODO

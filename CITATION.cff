@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: >-
+  Beyond Binary Failures: An Empirical Study of Graduated Network
+  Degradation and Its Impact on Availability and Durability in
+  CloudNativePG
+authors:
+  - family-names: Jerrari
+    given-names: Imane
+    affiliation: >-
+      Laboratory of Information Systems (LIS), Faculty of Sciences
+      Aïn Chock, Hassan II University of Casablanca
+  - family-names: Assayad
+    given-names: Ismail
+    affiliation: ENSEM, Hassan II University of Casablanca
+date-released: 2026
+repository-code: >-
+  https://github.com/imanejerrari-etu-bit/cnpg-graduated-network-degradation
+license: MIT

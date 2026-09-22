@@ -1,0 +1,3 @@
+run_id,system,scenario,rep,t_baseline_start_unix,t_inject_unix,t_heal_unix,t_run_end_unix,role_log,writer_log,count_before,max_id_before,rows_surviving,notes
+cnpg_p3-full_rep005_20260810_215528,cnpg,p3-full,5,1786395375,1786395386,1786395448,1786395509,cnpg_p3-full_rep005_20260810_215528.role.csv,cnpg_p3-full_rep005_20260810_215528.writer.csv,214559,218453,214559,
+cnpg_p3-full_rep013_20260812_201620,cnpg,p3-full,13,1786562193,1786562204,1786562267,1786562305,cnpg_p3-full_rep013_20260812_201620.role.csv,cnpg_p3-full_rep013_20260812_201620.writer.csv,221432,225386,ERROR_QUERY_FAILED,ROW_COUNT_ECHEC

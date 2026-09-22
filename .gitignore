@@ -1,0 +1,26 @@
+# Secrets -- never commit these
+*credentials*
+*.pem
+*.key
+*kubeconfig*
+*.env
+**/patroni_logs/
+**/patroni-src/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# LaTeX build artifacts (if the paper source is ever added here)
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
